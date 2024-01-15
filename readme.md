@@ -1,4 +1,5 @@
 # Minesweeper Game
+A sample project of using Github Copilot to create an html game from scratch.
 This project is a simple implementation of the classic Minesweeper game using HTML, CSS, and JavaScript.
 
 ## Project Structure
