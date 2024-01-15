@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="minesweeper.css">
+</head>
+<body>
+    <div id="minefield"></div>
+    <div id="messageBox"></div>
+    <label for="mines">Number of Mines:</label>
+    <select id="mines">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+    </select>
+    <button onclick="startNewGame()">Start New Game</button>
+    <script src="minesweeper.js"></script>
+    <script>
+        function startNewGame() {
+            var minesDropdown = document.getElementById("mines");
+            var numberOfMines = parseInt(minesDropdown.value);
+            newGame(numberOfMines);
+        }
+    </script>
+    
+</body>
+</html>

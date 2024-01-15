@@ -1,0 +1,24 @@
+#minefield {
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    grid-template-rows: repeat(10, 20px);
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.mine {
+    background-color: red;
+}
+
+.flag {
+    background-color: yellow;
+}
+
+.revealed {
+    background-color: lightgray;
+}
